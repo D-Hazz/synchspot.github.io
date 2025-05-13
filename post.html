@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette SYNCHSPOT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="post.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header">
+                <h1 class="header-title">Synchspot</h1>
+                <div class="search-bar-desktop">
+                    <input type="text" placeholder="Rechercher..." class="search-input">
+                </div>
+                <div class="header-icons">
+                    <button id="search-toggle-mobile">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button>
+                        <i class="fas fa-message"></i>
+                    </button>
+                    <button id="theme-toggle">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button id="notifications-button">
+                        <i class="fas fa-bell"></i>
+                        <span class="notification-badge" id="notification-count">3</span>
+                    </button>
+                    <button><i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img
+                        class="avatar"
+                        src="post1.jpg"
+                        alt="Author Avatar"
+                    />
+                    <div class="post-info">
+                        <span class="post-author">Zed Duck</span>
+                        <span class="post-time">5 min ago</span>
+                    </div>
+                      <div class="post-options">
+                        <button><i class="fas fa-bookmark"></i></button>
+                        <button class="more-options-button"><i class="fas fa-ellipsis-v"></i></button>
+                      </div>
+                </div>
+                <img
+                    class="post-image"
+                    src="post2.jpg"
+                    alt="Post Image"
+                />
+                <p class="post-text">
+                    Duis quis velit felis, interdum et malesuada fames ac ante ipsum
+                    primis in faucibus. Donec lectus...
+                </p>
+                <div class="post-actions">
+                    <button><i class="far fa-heart"></i> Like (25)</button>
+                    <button><i class="far fa-comment"></i> Comment (10)</button>
+                    <button><i class="fas fa-share"></i> Share (5)</button>
+                </div>
+            </div>
+            <div class="comment-input-container">
+                <img src="post1.jpg" alt="User Avatar" class="avatar">
+                <input type="text" placeholder="Ajouter un commentaire..." class="comment-input" id="comment-input">
+                <button class="emoji-button" id="emoji-button">😀</button>
+                <div class="emoji-picker" id="emoji-picker">
+                    <button>😀</button>
+                    <button>😂</button>
+                    <button>😍</button>
+                    <button>🔥</button>
+                    <button>🎉</button>
+                    <button>🍕</button>
+                    <button>🎸</button>
+                    <button>🚀</button>
+                    <button>🌟</button>
+                    <button>😎</button>
+                </div>
+                <button class="send-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img
+                        class="avatar"
+                        src="post3.jpg"
+                        alt="Author Avatar"
+                    />
+                    <div class="post-info">
+                        <span class="post-author">Promesse Duck</span>
+                        <span class="post-time">5 min ago</span>
+                    </div>
+                      <div class="post-options">
+                        <button><i class="fas fa-bookmark"></i></button>
+                        <button class="more-options-button"><i class="fas fa-ellipsis-v"></i></button>
+                      </div>
+                </div>
+                <img
+                    class="post-image"
+                    src="post4.jpg"
+                    alt="Post Image"
+                />
+                <p class="post-text">
+                    Duis quis velit felis, interdum et malesuada fames ac ante ipsum
+                    primis in faucibus. Donec lectus...
+                </p>
+                <div class="post-actions">
+                    <button><i class="far fa-heart"></i> Like (25)</button>
+                    <button><i class="far fa-comment"></i> Comment (10)</button>
+                    <button><i class="fas fa-share"></i> Share (5)</button>
+                </div>
+            </div>
+            <div class="comment-input-container">
+                <img src="post3.jpg" alt="User Avatar" class="avatar">
+                <input type="text" placeholder="Ajouter un commentaire..." class="comment-input" id="comment-input">
+                <button class="emoji-button" id="emoji-button">😀</button>
+                <div class="emoji-picker" id="emoji-picker">
+                    <button>😀</button>
+                    <button>😂</button>
+                    <button>😍</button>
+                    <button>🔥</button>
+                    <button>🎉</button>
+                    <button>🍕</button>
+                    <button>🎸</button>
+                    <button>🚀</button>
+                    <button>🌟</button>
+                    <button>😎</button>
+                </div>
+                <button class="send-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img
+                        class="avatar"
+                        src="post5.jpg"
+                        alt="Author Avatar"
+                    />
+                    <div class="post-info">
+                        <span class="post-author">Chris Duck</span>
+                        <span class="post-time">5 min ago</span>
+                    </div>
+                      <div class="post-options">
+                        <button><i class="fas fa-bookmark"></i></button>
+                        <button class="more-options-button"><i class="fas fa-ellipsis-v"></i></button>
+                      </div>
+                </div>
+                <img
+                    class="post-image"
+                    src="post6.jpg"
+                    alt="Post Image"
+                />
+                <p class="post-text">
+                    Duis quis velit felis, interdum et malesuada fames ac ante ipsum
+                    primis in faucibus. Donec lectus...
+                </p>
+                <div class="post-actions">
+                    <button><i class="far fa-heart"></i> Like (25)</button>
+                    <button><i class="far fa-comment"></i> Comment (10)</button>
+                    <button><i class="fas fa-share"></i> Share (5)</button>
+                </div>
+            </div>
+            <div class="comment-input-container">
+                <img src="post5.jpg" alt="User Avatar" class="avatar">
+                <input type="text" placeholder="Ajouter un commentaire..." class="comment-input" id="comment-input">
+                <button class="emoji-button" id="emoji-button">😀</button>
+                <div class="emoji-picker" id="emoji-picker">
+                    <button>😀</button>
+                    <button>😂</button>
+                    <button>😍</button>
+                    <button>🔥</button>
+                    <button>🎉</button>
+                    <button>🍕</button>
+                    <button>🎸</button>
+                    <button>🚀</button>
+                    <button>🌟</button>
+                    <button>😎</button>
+                </div>
+                <button class="send-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+
+        <div class="bottom-nav">
+            <button>
+                <i class="fas fa-home"></i>
+                <span>Accueil</span>
+            </button>
+            <button>
+                <i class="fas fa-user-friends"></i>
+                <span>Amis</span>
+            </button>
+            <button>
+                <i class="fas fa-shopping-cart"></i>
+                <span>Marché</span>
+            </button>
+            <button>
+                <img
+                    class="avatar avatar-bottom-nav"
+                    src="post3.jpg"
+                    alt="Author Avatar"
+                />
+                <span>Profil</span>
+            </button>
+        </div>
+
+        <div class="search-modal" id="search-modal">
+            <div class="search-modal-content">
+                Rechercher...<button class="search-close-button" id="search-close-button"><i class="fas fa-times"></i></button>
+                <input type="text" placeholder="des personnes, inspirations, etc" class="search-input search-input-modal">
+                </div>
+        </div>
+
+        <div class="notification-card" id="notification-card">
+            <h3>Notifications</h3>
+            <div class="notification-item">
+                <p>Nouvel ami ajouté !</p>
+            </div>
+            <div class="notification-item">
+                <p>Quelqu'un a aimé votre publication.</p>
+            </div>
+            <div class="notification-item">
+                <p>Nouveau message reçu.</p>
+            </div>
+        </div>
+    </div>
+    <script src="post.js"></script>
+    
+</body>
+</html>
